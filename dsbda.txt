@@ -1,0 +1,385 @@
+Here's a complete and well-organized answer set to all 50 questions:
+
+---
+
+### **1. What is Pandas library in Python?**
+
+Pandas is a powerful Python library for data manipulation and analysis. It provides data structures like **Series** and **DataFrame** for handling structured data efficiently.
+
+---
+
+### **2. Key features of Pandas:**
+
+* Fast and efficient DataFrame object
+* Handling of missing data
+* Automatic and explicit data alignment
+* Powerful group-by functionality
+* Easy file input/output (e.g., CSV, Excel)
+* Merging and joining of datasets
+* Reshaping and pivoting of data
+
+---
+
+### **3. What is NumPy Library in Python?**
+
+NumPy is a fundamental Python library for numerical computing. It provides support for **multi-dimensional arrays**, **mathematical operations**, and **linear algebra**.
+
+---
+
+### **4. What is Matplotlib library?**
+
+Matplotlib is a Python 2D plotting library used to generate charts, graphs, and other visualizations from data.
+
+---
+
+### **5. Difference between Seaborn and Matplotlib:**
+
+Seaborn is built on top of Matplotlib. It offers **higher-level interfaces** for creating attractive and **statistically informative plots** with **less code**.
+
+---
+
+### **6. Is Sklearn and Scikit-learn the same? Usage in Data Science:**
+
+Yes, they are the same. **Scikit-learn (sklearn)** is used in data science for:
+
+* Classification
+* Regression
+* Clustering
+* Dimensionality reduction
+* Model selection and preprocessing
+
+---
+
+### **7. Functions in Pandas and NumPy:**
+
+**Pandas**: `read_csv()`, `head()`, `describe()`, `dropna()`, `merge()`
+**NumPy**: `array()`, `mean()`, `std()`, `reshape()`, `linspace()`
+
+---
+
+### **8. What is a DataFrame in Python?**
+
+A DataFrame is a **2D, labeled data structure** in Pandas, similar to an Excel spreadsheet or SQL table.
+
+---
+
+### **9. How to find duplicates in Python?**
+
+Use:
+
+* `df.duplicated()` → Returns boolean Series
+* `df[df.duplicated()]` → Shows duplicated rows
+
+---
+
+### **10. Use of `describe()` command:**
+
+Provides a **statistical summary** (count, mean, std, min, max, quartiles) for numerical columns.
+
+---
+
+### **11. Naive Bayes classification algorithms in Python:**
+
+* `GaussianNB`
+* `MultinomialNB`
+* `BernoulliNB`
+  (All from `sklearn.naive_bayes`)
+
+---
+
+### **12. Significance of Confusion Matrix:**
+
+A confusion matrix evaluates the performance of classification models by showing:
+
+* True Positives (TP)
+* True Negatives (TN)
+* False Positives (FP)
+* False Negatives (FN)
+
+---
+
+### **13. What is TP, TN, FP, FN?**
+
+* **TP**: Correctly predicted positives
+* **TN**: Correctly predicted negatives
+* **FP**: Incorrectly predicted as positive
+* **FN**: Incorrectly predicted as negative
+
+---
+
+### **14. What is Recall?**
+
+**Recall = TP / (TP + FN)**
+It measures how well a model identifies all relevant instances.
+
+---
+
+### **15. What is Precision?**
+
+**Precision = TP / (TP + FP)**
+It measures how many predicted positives are truly positive.
+
+---
+
+### **16. What is F1 Score?**
+
+**F1 = 2 \* (Precision \* Recall) / (Precision + Recall)**
+It balances precision and recall.
+
+---
+
+### **17. Why is Data Visualization needed in Data Science?**
+
+To **explore, analyze, and communicate** data patterns, trends, and insights effectively.
+
+---
+
+### **18. What is an Outlier?**
+
+An observation that lies **far from the rest of the data points**.
+
+---
+
+### **19. When to use Histogram vs Pie Chart?**
+
+* **Histogram**: Show distribution of numerical data
+* **Pie Chart**: Show percentage or proportion of categories
+
+---
+
+### **20. Challenges in Big Data Visualization:**
+
+* Data volume and variety
+* Real-time data streaming
+* Interactive visualization
+* Scalability and performance
+* Cluttered visuals
+
+---
+
+### **21. Joint Plot and Dist Plot:**
+
+* **Joint Plot**: Combines scatter plot + histogram or KDE
+* **Dist Plot**: Shows distribution (histogram + density curve)
+
+---
+
+### **22. Tools for Data Visualization:**
+
+* Matplotlib
+* Seaborn
+* Plotly
+* Power BI
+* Tableau
+* ggplot (Python and R)
+
+---
+
+### **23. What is Data Wrangling?**
+
+Process of **cleaning, structuring, and enriching** raw data into a usable format.
+
+---
+
+### **24. What is Data Transformation?**
+
+Changing the **format, structure, or values** of data for better analysis or modeling.
+
+---
+
+### **25. Use of `StandardScaler` in Python:**
+
+It standardizes features by **removing the mean and scaling to unit variance** using `sklearn.preprocessing.StandardScaler`.
+
+---
+
+### **26. What is Hadoop?**
+
+An **open-source framework** for distributed storage (HDFS) and processing (MapReduce) of large data sets.
+
+---
+
+### **27. What is HDFS and MapReduce?**
+
+* **HDFS**: Hadoop Distributed File System
+* **MapReduce**: Programming model for processing large-scale data
+
+---
+
+### **28. Components of Hadoop Ecosystem:**
+
+* HDFS
+* YARN
+* MapReduce
+* Hive
+* Pig
+* HBase
+* Spark
+* Sqoop
+* Oozie
+* Flume
+
+---
+
+### **29. What is Scala?**
+
+A **modern programming language** that blends object-oriented and functional programming.
+
+---
+
+### **30. Features of Scala:**
+
+* Type inference
+* Immutability
+* Concise and expressive syntax
+* Functional programming support
+* Java interoperability
+
+---
+
+### **31. Scala vs Java:**
+
+* Scala supports **functional programming**
+* Scala has **shorter, more concise syntax**
+* Better **concurrency support** than Java
+
+---
+
+### **32. Applications of Scala:**
+
+* Apache Spark development
+* Data engineering pipelines
+* Backend web applications
+* Real-time systems
+
+---
+
+### **33. What is Data Science?**
+
+An interdisciplinary field that extracts knowledge and insights from data using **math, statistics, programming, and domain expertise**.
+
+---
+
+### **34. What is Big Data?**
+
+Extremely large and complex data sets that require **advanced tools and technologies** to store, process, and analyze.
+
+---
+
+### **35. Characteristics of Big Data (5 V's):**
+
+* **Volume**
+* **Velocity**
+* **Variety**
+* **Veracity**
+* **Value**
+
+---
+
+### **36. Phases in Data Science Life Cycle:**
+
+1. Data Collection
+2. Data Cleaning
+3. Data Exploration
+4. Modeling
+5. Evaluation
+6. Deployment
+
+---
+
+### **37. What is Central Tendency?**
+
+Measures of the center of data:
+
+* **Mean**
+* **Median**
+* **Mode**
+
+---
+
+### **38. What is Dispersion?**
+
+Describes the spread of data:
+
+* **Range**
+* **Variance**
+* **Standard deviation**
+
+---
+
+### **39. Calculate for: 10, 22, 13, 10, 21, 43, 77, 21, 10**
+
+* **Mean** = (10+22+13+10+21+43+77+21+10)/9 = **25.2**
+* **Mode** = **10**
+* **Median** = **21**
+* **Mid Range** = (10+77)/2 = **43.5**
+
+---
+
+### **40. What is Variance?**
+
+Variance is the **average of squared differences** from the mean.
+Variance ≈ **470.96**
+
+---
+
+### **41. What is Standard Deviation?**
+
+It’s the **square root of variance**, indicating data spread.
+Standard Deviation ≈ **21.7**
+
+---
+
+### **42. Posterior Probability in Naive Bayes:**
+
+Probability of a class given observed features (P(Class|Data)).
+
+---
+
+### **43. Likelihood Probability in Naive Bayes:**
+
+Probability of data given a class (P(Data|Class)).
+
+---
+
+### **44. Dealing with Missing Values:**
+
+* `dropna()` to remove
+* `fillna()` to fill
+* Imputation (mean, median, mode, KNN, etc.)
+
+---
+
+### **45. What is NLTK?**
+
+**Natural Language Toolkit**: Python library for processing and analyzing human (natural) language data.
+
+---
+
+### **46. What is Tokenization in NLP?**
+
+Splitting text into **individual units** like words or sentences.
+
+---
+
+### **47. What is Stemming?**
+
+Reduces words to **base/root form** (e.g., “running” → “run”).
+
+---
+
+### **48. What is Lemmatization?**
+
+Converts words to their **dictionary (lemma) form** (e.g., “am” → “be”).
+
+---
+
+### **49. What is Corpus in NLP?**
+
+A **large structured set of texts** used to train or evaluate NLP models.
+
+---
+
+### **50. What is Apache Spark?**
+
+A **fast, in-memory distributed processing** system for big data
